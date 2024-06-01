@@ -1,0 +1,85 @@
+body { 
+    background-image: url('img/background.jpg');
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    background-color: #00dd00;
+    padding: 10px;
+}
+
+main {
+    padding: 20px 0;
+}
+
+h1, h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background-color: rgba(0, 0, 0, 0.55);
+    padding: 70px 50px;
+    border-radius: 15px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.logo-text {
+    font-size: 25px;
+    color: #00dd00;
+}
+
+.monopattino {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.monopattino .posizione, .monopattino .stato-testo {
+    font-size: 12px;
+}
+
+.monopattino h2 {
+    /* metodo per far rimanere vicini il checkbox e il titolo h2*/
+    display: inline-block;
+    margin: 0;
+}
+
+.monopattino .stato-barra {
+    height: 20px;
+    border-radius: 3px;
+}
+
+.monopattino .stato-barra.media {
+    background-color: #f5b453;
+    width: 40%;
+}
+
+.monopattino .stato-barra.alta {
+    background-color: #1ec31e;
+    width: 60%;
+}
+
+.monopattino .stato-barra.bassa {
+    background-color: #be4141;
+    width: 20%;
+}
+
